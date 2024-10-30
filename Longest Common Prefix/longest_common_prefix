@@ -2,6 +2,9 @@ from typing import List
 
 
 def longestCommonPrefix(strs: List[str]) -> str:
+    """
+    This function receives a list of strings and returns the longest common prefix among them.
+    """
     count = 0
     if len(strs) == 0:
         return ""
